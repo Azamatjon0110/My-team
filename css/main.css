@@ -40,7 +40,8 @@ body{
   flex-direction: column;
   height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0;overflow-x: hidden;
+
   font-family: "Livvic", "Arial", sans-serif;
 }
 
@@ -84,8 +85,8 @@ body{
 .build::after{
   position: absolute;
   content: "";
-  right: 0px;
-  width: 100px;
+  left: calc(50% + 660px);
+  width: 200px;
   bottom: 0px;
   height: 244px;
   background-image: url(../images/build-bg-img.svg);
@@ -169,3 +170,112 @@ body{
 }
 
 /* build-section-end*/
+
+/* deliver-section */
+
+.deliver{
+  position: relative;
+  padding: 140px 165px;
+  color: var(--main-text-color);
+  font-weight: 700;
+  text-align: center;
+  background-color: #004047;
+  background-image: url(/images/deliver-bg-img2.svg);
+  background-repeat: no-repeat;
+background-position: calc(50% + 660px) calc(50% + 350px);
+}
+.deliver::before{
+  position: absolute;
+  content: "";
+  top: 0pc;
+  left: calc(50% - 760px);
+  width: 147px;
+  height: 100px;
+  background-image: url(/images/deliver-bg-img.svg);
+}
+
+.deliver__box{
+  position: relative;
+}
+
+
+.deliver__theme{
+  margin: 0px auto;
+  margin-bottom: 92px;
+  width: 932px;
+  height: 96px;
+  font-size: 48px;
+  line-height: 48px; 
+}
+
+.deliver__list{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.deliver__item{
+  position: relative;
+  padding-top: 36px;
+  background-image: url(../images/deliver-item-bg.svg);
+  background-repeat: no-repeat;
+  background-position-x: 9pc;
+  background-position-y: 15px;
+}
+
+.deliver__item:nth-last-child(3)::after{
+  position: absolute;
+  content: "";
+  bottom: -96px;
+  right: 140px;
+  width: 66px;
+  height: 66px;
+  background-image: url(../images/deliver-item1.svg);
+}
+.deliver__item:nth-last-child(2)::after{
+  position: absolute;
+  content: "";
+  bottom: -96px;
+  right: 140px;
+  width: 66px;
+  height: 66px;
+  background-image: url(../images/deliver-item2.svg);
+}
+.deliver__item:nth-last-child(1)::after{
+  position: absolute;
+  content: "";
+  bottom: -96px;
+  right: 140px;
+  width: 66px;
+  height: 66px;
+  background-image: url(../images/deliver-item3.svg);
+}
+
+.deliver__text{
+  margin-bottom: 24px;
+  width: 350px;
+  height: 100px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.profil-box{
+  position: relative;
+}
+
+.profil-box__name{
+  margin: 0px;
+  color: var(--rapt-blue);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.profil-box__position{
+  margin: 0px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
