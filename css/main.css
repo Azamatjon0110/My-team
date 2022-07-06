@@ -140,6 +140,21 @@ body{
   background-repeat: no-repeat;
 }
 
+
+.hero-info--bg1::before{
+  display: none;
+}
+
+.hero--bg2{
+  padding-top: 47px;
+  padding-bottom: 120px;
+  background-image: url('../images/about-hero-bg.svg');
+  background-size: 200px 200px;
+  background-position: calc(50% + 760px) calc(50% + 75px);
+  background-repeat: no-repeat;
+}
+
+
 .hero-info{
   position: relative;
   display: flex;
@@ -159,6 +174,11 @@ body{
   background-size: contain;
 }
 
+
+.hero-box{
+  width: 350px;
+}
+
 .hero-info__titlebox{
   width: 635px;
   margin-right: 30px;
@@ -175,6 +195,11 @@ body{
   color: var(--light-coral);
 }
 
+.hero-info__text--top{
+  margin: 0px;
+  padding-top: 40px;
+}
+
 .hero-info__textbox{
   width: 445px;
 }
@@ -187,11 +212,24 @@ body{
   content: "";
 }
 
+.hero-info__textbox--border{
+  width: 730px;
+}
+
+.hero-info__textbox--border::before{
+  background-color: var(--light-coral);
+}
+
 .hero-info__text{
   padding-top: 79px;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
+}
+
+.hero-info__text--top{
+  margin: 0px;
+  padding-top: 40px;
 }
 
 /* Hero end */
