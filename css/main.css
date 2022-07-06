@@ -125,7 +125,7 @@ body{
   background-color: var(--hero-bg-img);
   padding-top: 56px;
   padding-bottom: 250px;
-  background-image: url('../images/hero-bgimg.svg');
+  background-image: url("../images/hero-bgimg.svg");
   background-size: 358px 200px;
   background-position: calc(50% + 337px) calc(50% + 265px);
   background-repeat: no-repeat;
@@ -134,7 +134,7 @@ body{
 .hero--bg2{
   padding-top: 47px;
   padding-bottom: 120px;
-  background-image: url('../images/about-hero-bg.svg');
+  background-image: url("../images/about-hero-bg.svg");
   background-size: 200px 200px;
   background-position: calc(50% + 760px) calc(50% + 60px);
   background-repeat: no-repeat;
@@ -509,7 +509,7 @@ background-position: calc(50% + 660px) calc(50% + 379px);
   width: 100%;
   padding: 140px 0;
   background-color: var(--manage-bg-color);
-  background-image: url('../images/about-clients-bg.svg');
+  background-image: url("../images/about-clients-bg.svg");
   background-size: 200px 200px;
   background-position: calc(50% - 660px) calc(50% - 138px);
   background-repeat: no-repeat;
