@@ -8,6 +8,31 @@
   --light-coral:#F67E7E;
 }
 
+:root{
+  --hd-list-color:#201F1E;
+  --link-bg-color:#0A7F2E;
+  --ser-text-color:#8A8A8A;
+  --text-color-white:#FFFFFF;
+  --ser-rotate-title-cl:#8A8A8A;
+  --text-color-bbb:#BBBBBB;
+  --text-color-201F1E:#201F1E;
+  --text-color-black:#000000;
+  --text-color-82:#828282;
+  --text-color-3E: #3e3e3e;
+  --text-color-77: #777777;
+  --title-color-1A133B:#1A133B;
+  --text-color-9997A2: #9997A2;
+  --time-color-9c:#9c9c9c;
+  --title-color35:#353535;
+
+}
+
+
+
+
+
+
+
 /* livvic-italic - latin */
 @font-face {
   font-family: 'Livvic';
@@ -625,7 +650,7 @@ body{
 
 .mt-list__sp{
   position: absolute;
-  left: 146px;
+  left: calc(50% - 28px);
   width: 56px;
   height: 56px;
   transform: translateY(50%);
