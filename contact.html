@@ -45,9 +45,58 @@
 
   <!-- SITE MAIN START -->
   <main class="site-main">
-    <div class="contacy">
+    <section class="contact">
 
-    </div>
+      <div class="container">
+        <div class="contact-info">
+          <div class="contact-info__box">
+            <h3 class="contact-info__title">Contact</h3>
+            <p class="contact-info__text">Ask us about</p>
+            <ul class="contact-info__list">
+              <li class="contact-info__item">
+                The quality of our talent network
+              </li>
+              <li class="contact-info__item">
+                Usage & implementation of our software
+              </li>
+              <li class="contact-info__item">
+                How we help drive innovation
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-box__form" action="https://echo.htmlacademy.ru" method="post" autocomplete="off">
+            <label class="contact-box__label">
+              <input class="contact-box__input" name="user_name" type="text" minlength="2" aria-label="name" placeholder="Name" required>
+              <span class="contact-box__sp">This field is required</span>
+            </label>
+
+            <label class="contact-box__label">
+              <input class="contact-box__input" name="user_email" type="email" aria-label=" enter your email" placeholder="Email" required>
+              <span class="contact-box__sp">This field is required</span>
+            </label>
+
+            <label class="contact-box__label">
+              <input class="contact-box__input" name="company_name" type="text" minlength="2" aria-label="Enter your company name" placeholder="Company name" required>
+              <span class="contact-box__sp">This field is required</span>
+            </label>
+
+            <label class="contact-box__label">
+              <input class="contact-box__input" name="user_title" type="text" minlength="2" aria-label="Title" placeholder="Title" required>
+              <span class="contact-box__sp">This field is required</span>
+            </label>
+
+            <textarea class="contact-box__textarea" name="post" id="textarea" cols="30"  placeholder="Message"></textarea>
+
+            <button class="contact-box__btn" type="submit">
+              submit
+            </button>
+
+          </form>
+        </div>
+      </div>
+
+    </section>
   </main>
   <!-- SITE MAIN END -->
 
